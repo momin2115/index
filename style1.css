@@ -1,0 +1,128 @@
+body {
+    /*background-color: #bcbcbc;*/
+}
+.hed{
+    font-family: 'lato', sans-serif;
+    font-weight: 200;
+    padding: 3%;
+    color: #171717;
+    font-size: 55px;
+    
+}
+
+.subhed{
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    padding: 4%;
+    font-size: -webkit-xxx-large;
+    /*background-color: cornsilk;*/
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 10px;
+
+}
+
+.under{
+    border-bottom: 1px solid rgba(34, 33, 33, 0.34);
+    padding-bottom: 3px;
+    width:auto;
+}
+
+.bglit{
+    /*background-color: beige;*/
+}
+
+.textarea_img{
+    height: 100%;
+    width: 100%;}
+
+.text_border{
+    /*border-right: lightgray solid 1px;*/
+}
+
+.text_pad {
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+
+}
+.cardbrdr{
+    padding: 1%;
+    margin: 2%;
+}
+/*
+{
+    font-family:sans-serif;
+    font-weight:bold;
+    color:azure;
+}
+
+
+
+.team{
+    height: 25%;
+    width: auto;
+}
+
+*/
+
+
+.textarea1 .textarea2{
+    margin: 0.5% 0%;
+    padding: 0.5% 0%;
+}
+
+.box{
+    transition: box-shadow 10s;
+    border-radius:5px;
+    border: 0px solid #ccc;
+    background: #fff;
+    float: left;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.5);
+}
+.box:hover {
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.5); 
+    overflow: hidden;
+}
+
+.box1{
+    margin-top: 15px;
+    border-radius:5px;
+    border: 0px solid #ccc;
+    background: #fff;
+    float: left;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    margin-bottom: 30px;
+}
+
+/* Colorize-zoom Container */
+.img-hover-zoom--colorize img {
+  transition: transform .4s, filter .4s ease-in-out;
+  filter: grayscale(30%);
+}
+
+/* The Transformation */
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+.img-hover-zoom {
+  overflow: hidden; /* Removing this will break the effects */
+}
+
+.card-hover-zoom{
+    transition: transform .4s;
+}
+
+.card-hover-zoom:hover{
+    transform: scale(1.05);
+}
+
+.ball{
+    font-family: 'lato',sans-serif, Monsterrat;
+    
+    font-weight: bold;
+    color: salmon;
+    padding: 14px;
+    font-size: 90%;
+    
+}
